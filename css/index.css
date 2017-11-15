@@ -1,6 +1,32 @@
+
+body {
+	position: relative;	
+}
+
 #mainCarousel .carousel-item .img {
 	height: 350px;
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size:cover;
+}
+
+.header-wrapper, 
+.carousel-wrapper,
+.schedule-movies-wrapper,
+.menu-wrapper {
+	border-top: 5px solid #fff;	
+}
+
+.header-wrapper .header {
+	background:url(../img/22688596_1895539930762845_4470962750851695638_n.jpg);	
+	height: 350px;
+	background-repeat: no-repeat;
+	background-position:top;
+	background-size:cover;
+}
+
+
+
+.page-content {
+	margin-top: 55px;
 }
